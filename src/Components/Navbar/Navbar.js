@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Pdf from 'react-to-pdf'
 
 const Navbar = () => {
+    const ref = React.createRef()
     return (
         <div className="navbar bg-base-100">
             <div className="navbar-start">
@@ -43,7 +45,11 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a href='/' className="btn btn-outline btn-secondary">Resume</a>
+                <Pdf targetRef={ref} filename="resume.pdf">
+                    {({ toPdf }) =>
+                        <a href='https://drive.google.com/file/d/14Lsy7G-Frgv-57xFAgWUgAtfVEalcBPM/view?usp=share_link' onClick={toPdf} className="btn btn-outline btn-secondary">Resume</a>}
+                </Pdf>
+
             </div>
         </div>
     );

@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Main from './layout/Main';
 import Home from './Components/Home/Home';
 import About from './Components/About/About';
+import Resume from './Components/Resume/Resume';
 
 
 function App() {
@@ -19,6 +20,10 @@ function App() {
         {
           path: '/about',
           element: <About></About>
+        },
+        {
+          path: '/resume',
+          element: <Resume></Resume>
         }
       ]
     }
