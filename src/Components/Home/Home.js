@@ -6,52 +6,63 @@ const Home = () => {
 
     return (
         <div>
+            <section className='rounded-lg shadow-lg'>
+                <div className='grid grid-cols-2 gap-8'>
+                    <div className='my-auto ml-3'>
+                        <h1 className='text-5xl font-bold'>Hello I'm Didarul Alam Faysal</h1>
+                        <h2 className='mt-5 font-bold'>I am a React Based Frontend Developer. I know Ui/Ux design & interests in learning and coding new technologies.</h2>
+                    </div>
+                    <div className='p-10'>
+                        <img className='rounded-lg' src="https://img.freepik.com/free-vector/hand-drawn-web-developers_23-2148819604.jpg?size=626&ext=jpg&uid=R87258934&ga=GA1.2.188054106.1669221212&semt=sph" alt="" />
+                    </div>
+                </div>
+            </section>
             <section>
-                <h2 className='text-3xl font-bold text-center mt-3 text-secondary'>My Skills</h2>
-                <div className='grid grid-cols-3 gap-3'>
+                <h2 className='text-3xl font-bold text-center mt-7 text-secondary'>My Skills</h2>
+                <div className='mt-7 grid grid-cols-3 gap-3'>
                     <div className='shadow-lg'>
                         <img className='h-60' src="https://tse4.mm.bing.net/th?id=OIP.PHBTJoshbg880IH9z_PB6QHaHa&pid=Api&P=0" alt="" />
-                        <div className="radial-progress text-primary" style={{ "--value": 80 }}>80%</div>
+                        <div className="mb-3 ml-28 radial-progress text-primary" style={{ "--value": 80 }}>80%</div>
                     </div>
                     <div className='shadow-lg'>
                         <img className='h-60' src="https://tse3.mm.bing.net/th?id=OIP.9nmpe21kOln2OBgSM-TDZAAAAA&pid=Api&P=0" alt="" />
-                        <div className="radial-progress text-primary" style={{ "--value": 100 }}>100%</div>
+                        <div className="mb-3 ml-28 radial-progress text-primary" style={{ "--value": 100 }}>100%</div>
                     </div>
                     <div className='shadow-lg'>
                         <img className='h-60' src="https://tse4.mm.bing.net/th?id=OIP.p86-uZmTpATgZr93QmtYjAHaHa&pid=Api&P=0" alt="" />
-                        <div className="radial-progress text-primary" style={{ "--value": 95 }}>95%</div>
+                        <div className="mb-3 ml-28 radial-progress text-primary" style={{ "--value": 95 }}>95%</div>
                     </div>
                     <div className='shadow-lg'>
                         <img className='h-60' src="https://tse2.mm.bing.net/th?id=OIP.2lPcNBjKmc6P7DhGJ02cuAHaHa&pid=Api&P=0" alt="" />
-                        <div className="radial-progress text-primary" style={{ "--value": 90 }}>90%</div>
+                        <div className="mb-3 ml-28 radial-progress text-primary" style={{ "--value": 90 }}>90%</div>
                     </div>
                     <div className='shadow-lg'>
                         <img className='h-60' src="https://tse3.mm.bing.net/th?id=OIP.GgMjcyR95L35NoosfTb9vQAAAA&pid=Api&P=0" alt="" />
-                        <div className="radial-progress text-primary" style={{ "--value": 95 }}>95%</div>
+                        <div className="mb-3 ml-28 radial-progress text-primary" style={{ "--value": 95 }}>95%</div>
                     </div>
                     <div className='shadow-lg'>
                         <img className='h-60' src="https://tse1.mm.bing.net/th?id=OIP.Ic719f-PCoMe0WkukecVSgAAAA&pid=Api&P=0" alt="" />
-                        <div className="radial-progress text-primary" style={{ "--value": 85 }}>85%</div>
+                        <div className="mb-3 ml-28 radial-progress text-primary" style={{ "--value": 85 }}>85%</div>
                     </div>
                     <div className='shadow-lg'>
                         <img className='h-60' src="https://tse4.mm.bing.net/th?id=OIP.gJbMaH_nIJYvtkAv6Rn5_QHaHa&pid=Api&P=0" alt="" />
-                        <div className="radial-progress text-primary" style={{ "--value": 40 }}>40%</div>
+                        <div className="mb-3 ml-28 radial-progress text-primary" style={{ "--value": 40 }}>40%</div>
                     </div>
                     <div className='shadow-lg'>
                         <img className='h-60' src="https://tse1.mm.bing.net/th?id=OIP.2CmjOPI5qbo_ffqHS-pBjwHaHa&pid=Api&P=0" alt="" />
-                        <div className="radial-progress text-primary" style={{ "--value": 60 }}>60%</div>
+                        <div className="mb-3 ml-28 radial-progress text-primary" style={{ "--value": 60 }}>60%</div>
                     </div>
 
                     <div className='shadow-lg'>
                         <img className='h-60' src="https://tse2.explicit.bing.net/th?id=OIP._yfjgiojxtfaezQcjuGtcwAAAA&pid=Api&P=0" alt="" />
-                        <div className="radial-progress text-primary" style={{ "--value": 30 }}>30%</div>
+                        <div className="mb-3 ml-28 radial-progress text-primary" style={{ "--value": 30 }}>30%</div>
                     </div>
 
                 </div>
             </section>
 
             <section>
-                <h2 className='text-3xl font-bold text-secondary text-center'>Projects</h2>
+                <h2 className='text-3xl mt-7 font-bold text-secondary text-center'>Projects</h2>
                 <div className='grid grid-cols-3 mt-5 gap-5'>
                     <div className='bg-base-200 rounded-lg shadow-lg'>
                         <h2 className='font-bold'>project Name: Snap Kitchen</h2>
